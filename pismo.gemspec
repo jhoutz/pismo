@@ -6,15 +6,15 @@ Gem::Specification.new do |s|
   s.name        = "pismo"
   s.version     = Pismo::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Peter Cooper"]
-  s.email       = ["git@peterc.org"]
-  s.homepage    = "http://github.com/peterc/pismo"
+  s.authors     = ["Justin Houtz"]
+  s.email       = ["justin@justinhoutz.com"]
+  s.homepage    = "https://github.com/jhoutz/pismo"
   s.description = %q{Pismo extracts and retrieves content-related metadata from HTML pages - you can use the resulting data in an organized way, such as a summary/first paragraph, body text, keywords, RSS feed URL, favicon, etc.}
   s.summary     = %q{Extracts or retrieves content-related metadata from HTML pages}
   s.date        = %q{2010-12-19}
   s.default_executable = %q{pismo}
 
-  s.rubyforge_project = "pismo"
+  # s.rubyforge_project = "pismo"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
